@@ -1,8 +1,8 @@
 <template>
-    <section class="bg-white py-8">
-    <div id="ProcessSection"></div>
-    <h1 class=" font-serif-custom font-extrabold text-black">Pa' las que sea</h1>
-    <h2 class=" font-serif-custom font-extrabold text-black p-3">Así transformas tus ideas en realidad con Digytal Consulting.</h2>
+    <section class="bg-white py-18">
+    <div @click="reloadPage" id="ProcessSection"></div>
+    <h1 class=" font-serif-custom font-extrabold text-black text-left ml-96">Pa' las que sea</h1>
+    <h2 class=" font-serif-custom font-extrabold text-black p-3 text-left ml-76">Así transformas tus ideas en realidad con Digytal Consulting.</h2>
     <div class="grid grid-cols-4 grid-rows-2 gap-x-px">
         <div class="bg-[#0B488A] flex justify-start items-start"> 
             <div class="relative overflow-hidden rounded-br-4xl bg-white w-60 h-60">
@@ -17,9 +17,9 @@
              CONECTAMOS CON TUS IDEAS
             </h1>
             <h2 class="font-serif-custom">Cuéntanos quién eres </h2>
-            <h2 class="font-serif-custom">y cuáles son tus metas,</h2>
-            <h2 class="font-serif-custom">para ofrecerte la mejor opción.</h2>
-            <p class="font-serif-custom font-bold italic text-white text-xl animate__animated animate__fadeInLeft my-8">Entrevista inicial</p>
+            <h2 class="font-serif-custom">y cual es tu Idea.</h2>
+            <p class="font-serif-custom font-bold italic text-white text-xl 
+            animate__animated animate__fadeInLeft my-8">Entrevista inicial.</p>
 
         </div>
         <div class="bg-[#0B488A] flex justify-end items-start animate__animated animate__fadeInRight">  
@@ -32,8 +32,8 @@
             <h1 class="font-serif-custom font-extrabold my-4 p-2" style="font-size: 1.3rem;">
                 TE DAMOS UNA ESTRATEGIA A LA MEDIDA
             </h1>
-            <h2 class="font-serif-custom my-4">
-                Te ofrecemos una estrategia personalizada, diseñada para adaptarse a tus necesidades. 
+            <h2 class="font-serif-custom m-4">
+                Ofrecemos un tipo de página Web que se adapte a tus necesidades. 
             </h2>
             <p class="font-serif-custom font-bold italic text-white text-xl animate__animated animate__fadeInRight">Identificamos la solución a tu necesidad.</p>
         </div>
@@ -42,12 +42,11 @@
                 ASÍ QUEDARÍA TU IDENTIDAD DIGITAL
             </h1>
             <h2 class="font-serif-custom">
-                Te presentamos un diseño personalizado adaptado 
+                Presentamos el diseño de tu Web.
             </h2>
-            <h2 class="font-serif-custom">
-                para conectar con tu público objetivo.
-            </h2>
-            <p class="font-serif-custom font-bold italic text-white text-xl animate__animated animate__fadeInUp">Presentamos un prototipo de tu Web</p>
+            
+            <p class="font-serif-custom font-bold italic text-white text-xl 
+            animate__animated animate__fadeInUp">Presentamos un prototipo de tu Web.</p>
         </div>
         <div class="bg-[#0B488A] relative overflow-hidden">
             <img src="/src/assets/Images/Hombre ejecutivo.png" 
@@ -60,11 +59,15 @@
                 HAGAMOSLO REAL
             </h1>
             <h2 class="font-serif-custom">
-                Materializamos y damos vida a tu proyecto digital para que logres tus objetivos
+                Ponemos en marcha
             </h2>
-            <p class="font-serif-custom font-bold italic text-white text-xl animate__animated animate__fadeInUp">Damos Formalidad al acuerdo</p>
+            <h2 class="font-serif-custom">
+                tu página Web.
+            </h2>
+            <p class="m-2 font-serif-custom font-bold italic text-white text-xl 
+            animate__animated animate__fadeInUp">Acá formalizadamos lo que esperas recibir.</p>
         </div>
-        <div class="bg-[#216752] relative p-10">
+        <div class="bg-[#216752] relative overflow-hidde">
             <img src="/src/assets/Images/Avatar chica ejecutiva sin fondo.png" 
             alt="chica ejecutiva" 
             class="rounded-tl-4xl absolute bottom-0 right-0 w-auto h-58"
@@ -78,6 +81,12 @@
 <script lang="ts">
 export default {
   name: "App",
+
+  methods: {
+    reloadPage() {
+      window.location.reload(); // Recarga la página actual
+    },
+  },
 };
 </script>
 

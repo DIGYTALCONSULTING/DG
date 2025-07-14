@@ -7,8 +7,8 @@
            via-[#0D68CC]
            to-[#1E5F50]"      
   >
-    <h1 class="p-0 mb-0">¡Hey! Hablemos</h1>
-    <h2>¡Estamos listos para apoyar tu proyecto! escribenos y te contactaremos.</h2>
+    <h1 class="p-6 mb-0 text-base">¡Hey! Hablemos</h1>
+    <h2>¡Estamos listos para apoyar tu proyecto! escribenos y te contactaremos en menos de 24 horas.!</h2>
   </div>
   <div
     class="flex justify-end w-full h-auto
@@ -166,8 +166,9 @@
         class="mt-4 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
       >
         Cerrar
-      </button>
-    </div>
+      </button>    
+    </div>    
+    <h3>Nos ajustamos a tu presupuesto</h3>
   </div>
 </template>
 

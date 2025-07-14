@@ -5,9 +5,9 @@
       <!-- Logo y descripción -->
       <div class="space-y-4">
         <img
-          src="/src/assets/Images/logo_pie.png"
+          src="/src/assets/Images/logo_vf.png"
           alt="Digytal Consulting"
-          class="h-12"
+          class="h-50"
         />
         <p class="text-sm">
           Asesoramos, Diseñamos, Desarrollamos y mejoramos tu presencia digital con páginas web profesionales y dinámicas.

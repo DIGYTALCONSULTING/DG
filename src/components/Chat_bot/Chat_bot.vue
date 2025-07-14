@@ -7,10 +7,11 @@
       class="fixed bottom-8 right-8 p-4 bg-gradient-to-r to-indigo-600 text-white rounded-full cursor-pointer shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-110 z-50"
     >
       <div class="relative">
-        <img src="../../assets/Images/logo_pie.png" alt="Chatbot" class="h-12 w-12" />
-        <span v-if="unreadMessages" class="absolute -top-2 -right-2 bg-red-500 text-xs rounded-full h-5 w-5 flex items-center justify-center animate-pulse">
+        <img src="../../assets/Images/logo_vf.png" alt="Chatbot" class="h-18 w-16"/>        
+        <span v-if="unreadMessages" class="absolute -top-2 -right-2 bg-red-500 text-xs rounded-full h-25 w-25 flex items-center justify-center animate-pulse">
           {{ unreadMessages }}
         </span>
+      
       </div>
     </div>
     <!-- Ventana del chat -->
@@ -20,19 +21,19 @@
       :class="{'animate-fade-in-up': chatVisible}"
     >
       <!-- Encabezado del chat -->
-      <div class="bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-0 flex justify-between items-center rounded-t-xl">
+      <div class="bg-gradient-to-r bg-[#C24704] text-white p-0 flex justify-between items-center rounded-t-xl">
         <div class="flex items-center space-x-2">
-          <img src="../../assets/Images/logo_pie.png" alt="Chatbot" class="h-8 w-8" />
-          <h2 class="font-bold text-lg">Pregúntale a ¡Oé!</h2>
+          <img src="../../assets/Images/solo_logo.png" alt="Chatbot" class="h-12 w-12" />
+          <h2 class="font-bold text-lg">Pregúntale a ¡Oe!</h2>
         </div>
         <div class="flex items-center space-x-2">
-          <button @click="closeChat" class="!bg-indigo-600 text-white text-8xl duration-300 transform">
+          <button @click="closeChat" class="!bg-[#C26704] text-white text-8xl duration-300 transform">
             &times;
           </button>
         </div>
       </div>
        <!-- Enlace a redes sociales -->
-          <div v-if="chatVisible> 0" class="flex justify-center gap-4 p-0 pd-2 bg-gray-50">
+          <div v-if="chatVisible> 0" class="flex justify-center gap-2 p-3 pd-2 bg-gray-50">
             <!-- WhatsApp -->
             <a href="https://wa.me/3144706996" target="_blank" class="p-3 rounded-full hover:bg-gradient-to-r hover:from-green-400 transition-all">
               <img src="../../assets/Images/icon_whatsapp.svg" alt="WhatsApp" class="w-8 h-8" />
@@ -55,7 +56,7 @@
         :class="{'bg-gray-50': isNightMode}"
       >
         <!-- Mensaje de bienvenida inicial -->
-        <div v-if="messages.length === 0" class="text-center text-gray-500 py-4">
+        <div v-if="messages.length === 0" class="text-center text-gray-500">
           <p>¡Hablalo! ¿Para que soy bueno?</p>
         </div>
         <!-- Mensajes del chat -->
@@ -411,7 +412,7 @@ export default {
                 addBotMessage("¿Te interesa alguna en particular o necesitas más información?", [
                   "Arranque Sencillo", 
                   "Metale Ganas", 
-                  "Hgale con toda"
+                  "Hagale con toda"
                 ]);
               }, 300);
             }, 300);

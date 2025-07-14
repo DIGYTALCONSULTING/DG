@@ -9,7 +9,7 @@
         <div class="font-serif-custom font-extrabold bg-[#216752] w-full p-4 flex items-center justify-center text-2xl">Hagale con Toda</div> 
     </div>
         <div class="grid grid-cols-3 w-full justify-items-betwen px-2 my-0 gap-x-4">
-            <div class="max-w-sm bg-white rounded-2xl shadow-lg overflow-hidden p-4 ml-6 animate-pulse">
+            <div class="max-w-sm bg-white rounded-2xl shadow-lg overflow-hidden p-4 ml-6">
                 <!-- Tarjeta 1 -->
                 <div class="font-serif-custom font-bold bg-gradient-to-r from-[#000000] to-[#6023EB] w-full p-2 flex items-center justify-center text-1xl my-0 rounded-t-2xl text-white">
                     Mira cómo quedaría
@@ -18,7 +18,7 @@
                     <img
                     src="../../assets/Images/Arranque_Sencillo.png"
                     alt="Vista previa del plan"
-                    class="w-54 h-66 rounded-lg"
+                    class="w-54 h-66 rounded-lg transform transition-transform duration-300 hover:scale-280"
                     />
                 </div>
                 <div class="bg-gradient-to-r  from-[#000000] to-[#6023EB]
@@ -39,7 +39,7 @@
                 </div>    
                 
             </div>        
-            <div class="max-w-sm bg-white rounded-2xl shadow-lg overflow-hidden p-4 ml-3 animate-pulse">
+            <div class="max-w-sm bg-white rounded-2xl shadow-lg overflow-hidden p-4 ml-3">
                 <!-- Tarjeta 1 -->
                 <div class="font-serif-custom font-bold bg-gradient-to-r from-[#000000] to-[#226846] w-full p-2 flex items-center justify-center text-1xl my-0 rounded-t-2xl text-white">
                     Mira cómo quedaría
@@ -69,7 +69,7 @@
                 </div>    
                 
             </div>        
-            <div class="max-w-sm bg-white rounded-2xl shadow-lg overflow-hidden p-4 animate-pulse">
+            <div class="max-w-sm bg-white rounded-2xl shadow-lg overflow-hidden p-4">
                 <!-- Tarjeta 1 -->
                 <div class="font-serif-custom font-bold bg-gradient-to-r from-[#000000] to-[#C24704] w-full p-2 flex items-center justify-center text-1xl my-0 rounded-t-2xl text-white">
                     Mira cómo quedaría

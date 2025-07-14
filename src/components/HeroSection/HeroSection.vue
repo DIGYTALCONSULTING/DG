@@ -4,8 +4,10 @@
     <div class="relative w-1/3">
         <img src="/src/assets/Images/Fabio3.png" alt="fabio3" class="w-xl h-full" loading="lazy">    
         <div>
-          <img src="/src/assets/Images/Logo_DG_Hero_section.png" alt="Logo DigytalConsulting" 
-          class="absolute top-60 left-25 w-2/3 h-auto m-auto z-10 animate__animated animate__lightSpeedInRight">
+          <video autoplay muted loop playsinline
+           src="/src/assets/Images/video_hero.mp4" alt="Logo DigytalConsulting" 
+          class="absolute top-80 left-35 w-[200px] h-[200px] rounded-full object-cover z-10 animate__animated animate__lightSpeedInRight">
+          </video>
         </div>
 
     </div>
@@ -13,15 +15,15 @@
     <div @click="reloadPage" id="heroSection" class="w-1/3 flex flex-col justify-end animate__animated animate__lightSpeedInRight"> <!-- Clase personalizada -->
       <div class="bg-pixel-bg pt-4 pb-8 ">
         <div>
-          <p class="text-xl">¿Quieres Darle</p>
-          <p class="text-xl">presencia Web Pro a tu idea?</p>
+          <p class="text-xl">¿Quieres tener una Web</p>
+          <p class="text-xl">para tu Idea de negocio?</p>
           
         </div>
         <div>
-          <a href="#ProcessSection" class="block mt-4 text-white py-1 px-2 rounded transform scale-100 animate-bounce duration-180000">
+          <a href="#ContacSection" class="block mt-4 text-white py-1 px-2 rounded transform scale-100 animate-bounce duration-180000">
             <button class="!bg-[#C24704] w-full text-white cursor-pointer">
-            <p>Mira como</p>
-            <p> podemos hacerlo Realidad!</p>
+            <p class="italic">¡Nosotros</p>
+            <p class="italic">podemos hacerlo Realidad!</p>
             </button>
           </a>
         </div>
