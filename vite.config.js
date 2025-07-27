@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   // 👉 Esto indica el nombre de la carpeta/repo en GitHub Pages
-  base: '/digytalv3/',
+  base: '/DG/',
 
   plugins: [
     vue(),         // Plugin para Vue 3
