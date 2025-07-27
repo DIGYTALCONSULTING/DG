@@ -1,13 +1,13 @@
 <template>
   <section class="bg-white py-2">
     <div id="PlanSection"></div>
-    <h1 class="font-serif-custom font-extrabold text-black">Se le tiene</h1>
-    <h2 class="font-serif-custom font-extrabold text-black p-2">¡De seguro tenemos algo que se acomoda a tu Idea y Presupuesto!</h2>
+    <h1 class=" font-serif-custom font-extrabold text-black text-left text-5xl ml-96">Se le tiene</h1>
+    <h2 class=" font-serif-custom font-semibold text-black p-3 text-left ml-76 mt-4">¡De seguro tenemos algo que se acomoda a tu Idea y Presupuesto!</h2>
     <div class="grid grid-cols-3 w-full justify-items-center">
-        <div class="font-serif-custom font-extrabold bg-[#0A2441] w-full p-4 flex items-center justify-center text-2xl">Arranque Sencillo</div>        
-        <div class="font-serif-custom font-extrabold bg-[#4F2BBF] w-full p-4 my-1.5 text-2xl">Metale Ganas </div>
-        <div class="font-serif-custom font-extrabold bg-[#216752] w-full p-4 flex items-center justify-center text-2xl">Hagale con Toda</div> 
-    </div>
+        <div class="font-extrabold bg-[#0A2441] w-full p-4 flex items-center justify-center text-2xl text-amber-50">Arranque Sencillo</div>        
+        <div class="font-serif-custom font-extrabold bg-[#4F2BBF] w-full p-4 my-1.5 text-2xl text-amber-50 text-center">Metale Ganas </div>
+        <div class="font-serif-custom font-extrabold bg-[#216752] w-full p-4 flex items-center justify-center text-2xl text-amber-50">Hagale con Toda</div> 
+    </div>  
         <div class="grid grid-cols-3 w-full justify-items-betwen px-2 my-0 gap-x-4">
             <div class="max-w-sm bg-white rounded-2xl shadow-lg overflow-hidden p-4 ml-6">
                 <!-- Tarjeta 1 -->
@@ -48,7 +48,7 @@
                     <img
                     src="../assets/Plan_Metale_Ganas.png"
                     alt="Vista previa del plan"
-                    class="w-54 h-66 rounded-lg"
+                    class="w-54 h-66 rounded-lg transform transition-transform duration-300 hover:scale-280"
                     />
                 </div>
                 <div class="bg-gradient-to-r from-[#000000] to-[#226846]
@@ -78,7 +78,7 @@
                     <img
                     src="../assets/Hagale_con_toda.png"
                     alt="Vista previa del plan"
-                    class="w-54 h-66 rounded-lg"
+                    class="w-54 h-66 rounded-lg transform transition-transform duration-300 hover:scale-280"
                     />
                 </div>
                 <div class="bg-gradient-to-r from-[#000000] to-[#C24704]

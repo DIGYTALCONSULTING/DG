@@ -7,17 +7,17 @@
            via-[#0D68CC]
            to-[#1E5F50]"      
   >
-    <h1 class="p-6 mb-0 text-base">¡Hey! Hablemos</h1>
-    <h2>¡Estamos listos para apoyar tu proyecto! escribenos y te contactaremos en menos de 24 horas.!</h2>
+    <h1 class="p-10 mb-0 text-amber-50 text-5xl text-left pl-88">¡Hey! Hablemos</h1>
+    <h2 class="text-amber-50 text-left pl-58">¡Estamos listos para apoyar tu proyecto! escribenos y te contactaremos en menos de 24 horas.!</h2>
   </div>
   <div
-    class="flex justify-end w-full h-auto
+    class="flex pl-66 w-full h-auto
            bg-gradient-to-r 
            from-[#4F2BC0]
            via-[#0D68CC]
            to-[#1E5F50]
            rounded-md border-0
-           gap-18 p-4"
+           gap-18"
   >
     <!-- Caja de inputs y checkbox -->
     <div
@@ -74,13 +74,13 @@
       </div>
 
       <!-- Checkbox con validación -->
-      <label class="flex items-start space-x-2 mt-4 max-w-sm">
+      <label class="flex items-start space-x-2 mt-2 max-w-sm">
         <input
           type="checkbox"
           v-model="agreed"
           :disabled="!isFormValid"
           class="
-           form-checkbox h-12 w-12
+           form-checkbox h-8 w-8
            accent-black
            border-black
            
@@ -111,6 +111,7 @@
       <img
         src="../assets/chica_hey.png"
         alt="Chica Section Hey"
+        class="w-56"
       />
     </div>
   </div>

@@ -12,18 +12,18 @@
     </div>
     <!-- Agregamos un ID exclusivo para la HeroSection -->
     <div id="heroSection" class="w-1/3 flex flex-col justify-end animate__animated animate__lightSpeedInRight"> <!-- Clase personalizada -->
-      <div class="bg-pixel-bg pt-4 pb-8">
-        <div>
-          <p class="text-xl text-center text-amber-50">¿Quieres tener una Web</p>
-          <p class="text-xl text-center text-amber-50">para tu Idea de negocio?</p>          
+      <div class="bg-pixel-bg pt-4 pb-2 px-6 rounded-lg shadow-lg">
+        <div class="mt-2">
+          <p class="text-xl text-center text-amber-50 font-bold">¿Quieres tener una Web</p>
+          <p class="text-xl text-center text-amber-50 font-bold">para tu negocio?</p>          
         </div>
-        <div>
-          <a href="#ContacSection" class="block mt-4 text-white py-1 px-2 rounded transform scale-100 animate-bounce duration-180000">
-            <button class="!bg-[#C24704] w-full text-white cursor-pointer border-round">
-            <p class="italic text-amber-50">¡Nosotros</p>
-            <p class="italic text-amber-50">podemos hacerlo Realidad por ti!</p>
-            </button>
-          </a>
+        <div class="flex justify-center">
+         <a href="#ContacSection" class="block mt-4 mb-8 text-white py-1 px-2 rounded transform scale-100 animate-bounce duration-180000">
+          <button class="!bg-[#C24704] text-white cursor-pointer rounded-lg px-4 py-2 inline-block">
+            <p class="italic text-amber-50 font-bold">¡Nosotros</p>
+            <p class="italic text-amber-50 font-bold">podemos hacerlo Realidad por ti!</p>
+          </button>
+         </a>
         </div>
       </div>
     </div>

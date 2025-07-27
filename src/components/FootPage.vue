@@ -1,99 +1,87 @@
 <template>
-  <footer class="bg-black text-white">
-    <!-- Sección Superior -->
-    <div class="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+  <footer class="bg-gradient-to-b from-black via-gray-900 to-black">
+    <!-- Contenedor principal -->
+    <div class="max-w-6xl mx-auto px-6 py-12 space-y-10">
+      
       <!-- Logo y descripción -->
-      <div class="space-y-4">
+      <div class="flex flex-col items-center text-center space-y-4">
         <img
-          src="../assets/logo_foot.png"
+          src="../assets/logo_marca.png"
           alt="Digytal Consulting"
-          class="h-50"
+          class="h-80"
         />
-        <p class="text-sm">
-          Asesoramos, Diseñamos, Desarrollamos y mejoramos tu presencia digital con páginas web profesionales y dinámicas.
+        <p class="text-sm text-gray-300 max-w-md">
+          Asesoramos, diseñamos y mejoramos tu presencia digital con páginas web profesionales y dinámicas.
         </p>
       </div>
 
-      <!-- Algunos de nuestros clientes -->
-      <div>
-        <h3 class="font-semibold uppercase mb-4 text-sm">Algunos de nuestros clientes</h3>
-        <ul class="space-y-2 text-sm">
-          <li>Raza & Gourmet</li>
-          <li>Licencias Carvajal Bogotá</li>
-          <li>Contaplus</li>
-          <!-- Añade aquí más logos o nombres -->
-        </ul>
-      </div>
-
-      <!-- Conócenos -->
-      <div>
-        <h3 class="font-semibold uppercase mb-4 text-sm">Conócenos</h3>
-        <ul class="space-y-2 text-sm">
-          <li><a href="#" class="hover:underline">Como lo hacemos</a></li>
-          <li><a href="#" class="hover:underline">Quienes somos</a></li>
-        </ul>
-      </div>
-
-      <!-- Redes Sociales -->
-      <div>
-        <h3 class="font-semibold uppercase text-sm">Redes sociales</h3>
-        <div class="flex space-x-4">
-          <!-- Reemplaza con tus iconos SVG o componentes de iconos -->
-          <a href="#" aria-label="Facebook" class="hover:text-gray-400">
-            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
-              <!-- SVG Facebook -->
-            </svg>
-          </a>
-          <a href="#" aria-label="Twitter" class="hover:text-gray-400">
-            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
-              <!-- SVG Twitter -->
-            </svg>
-          </a>
-          <a href="#" aria-label="Instagram" class="hover:text-gray-400">
-            <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
-              <!-- SVG Instagram -->
-            </svg>
-          </a>
+      <!-- Navegación y enlaces rápidos -->
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-6 text-center sm:text-left">
+        <!-- Clientes -->
+        <div>
+          <h3 class="font-semibold uppercase text-xs tracking-widest text-gray-400 mb-3">Clientes</h3>
+          <ul class="space-y-2 text-sm">
+            <li>Raza & Gourmet</li>
+            <li>Licencias Carvajal Bogotá</li>
+            <li>Contaplus</li>
+          </ul>
         </div>
-        <ul class="text-sm mt-2">
-          <li><a href="#" class="hover:underline">Instagram</a></li>
-          <li><a href="#" class="hover:underline">OtraredX</a></li>
-          <li><a href="#" class="hover:underline">Facebook</a></li>
-        </ul>
+
+        <!-- Conócenos -->
+        <div>
+          <h3 class="font-semibold uppercase text-xs tracking-widest text-gray-400 mb-3">Conócenos</h3>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" class="hover:text-gray-400">Cómo lo hacemos</a></li>
+            <li><a href="#" class="hover:text-gray-400">Quiénes somos</a></li>
+          </ul>
+        </div>
+
+        <!-- Redes Sociales -->
+        <div>
+          <h3 class="font-semibold uppercase text-xs tracking-widest text-gray-400 mb-3">Síguenos</h3>
+          <div class="flex justify-center sm:justify-start space-x-4">
+            <!-- Iconos -->
+            <a href="#" aria-label="Instagram" class="hover:text-gray-400">
+              <!-- Puedes reemplazar por íconos Heroicons -->
+              <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                <!-- Instagram SVG -->
+              </svg>
+            </a>
+            <a href="#" aria-label="Facebook" class="hover:text-gray-400">
+              <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                <!-- Facebook SVG -->
+              </svg>
+            </a>
+            <a href="#" aria-label="LinkedIn" class="hover:text-gray-400">
+              <svg class="h-5 w-5" fill="currentColor" viewBox="0 0 24 24">
+                <!-- LinkedIn SVG -->
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Info legal -->
+        <div>
+          <h3 class="font-semibold uppercase text-xs tracking-widest text-gray-400 mb-3">Legal</h3>
+          <ul class="space-y-2 text-sm">
+            <li><a href="#" class="hover:text-gray-400">Política de Privacidad</a></li>
+            <li><a href="#" class="hover:text-gray-400">Términos y Condiciones</a></li>
+          </ul>
+        </div>
       </div>
     </div>
 
-    <!-- Sección Inferior -->
-    <div class="border-t border-gray-800 bg-gray-900">
-      <div class="max-w-7xl mx-auto px-4 py-4 flex flex-col md:flex-row justify-between items-center text-sm space-y-2 md:space-y-0">
-        <p>©2025 Todos los derechos reservados</p>
-        <div class="flex space-x-4">
-          <a href="#" class="hover:underline">Política de Privacidad</a>
-          <a href="#" class="hover:underline">Términos y Condiciones</a>
-        </div>
+    <!-- Línea inferior minimalista -->
+    <div class="border-t border-gray-800 py-4">
+      <div class="text-center text-xs text-gray-500">
+        © 2025 Digytal Consulting. Todos los derechos reservados.
       </div>
     </div>
   </footer>
 </template>
 
 <style scoped>
-  footer a {
-    transition: color 0.3s ease-in-out;
-  }
-
-  footer a:hover {
-    color: #a1a1a1; /* Ajusta el color según el diseño */
-  }
-
-  .bg-gray-900 {
-    background-color: #1a1a1a;
-  }
-
-  .text-sm {
-    font-size: 0.875rem;
-  }
-
-  .text-xs {
-    font-size: 0.75rem;
-  }
+footer a {
+  transition: color 0.3s ease-in-out;
+}
 </style>
