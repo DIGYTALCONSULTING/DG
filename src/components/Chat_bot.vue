@@ -12,7 +12,7 @@
 
     <!-- Ventana del chat -->
     <div v-show="chatVisible" class="fixed bottom-0 right-0 w-full h-[80vh] max-w-md bg-white border-t-2 border-gray-200 rounded-t-xl shadow-2xl flex flex-col z-50" :class="{'animate-fade-in-up': chatVisible}">
-      <div class="bg-gradient-to-r bg-[#C24704] text-amber-50 p-0 flex justify-between items-center rounded-t-xl">
+      <div class="bg-gradient-to-r bg-[#c95618] text-amber-50 p-0 flex justify-between items-center rounded-t-xl">
         <div class="flex items-center space-x-2">
           <img :src="soloLogo" alt="Chatbot" class="h-30 w-30" />
           <h2 class="font-bold text-lg">Pregúntale a ¡Oe!</h2>
