@@ -29,12 +29,14 @@
                     </p>
                     </div>
                     <div>
+                      <a href="#ContacSection">
                         <button
                         class="!bg-[#C24704] hover:!bg-[#A63D03] text-white font-semibold
                         py-2 px-4 rounded transition-colors"
                         >
                         Contactanos
                         </button>
+                    </a>
                     </div>
                 </div>    
                 
@@ -55,16 +57,18 @@
                     px-6 py-2 flex items-center justify-between gap-6 rounded-b-lg">
                     <div class="flex flex-col-2">
                     <p class="text-white text-sm font-serif-custom font-extrabold">
-                    Desde $600.000
+                    Desde $800.000
                     </p>
                     </div>
                     <div>
-                        <button
+                      <a href="#ContacSection">
+                        <button 
                         class="!bg-[#C24704] hover:!bg-[#A63D03] text-white font-semibold
                         py-2 px-4 rounded transition-colors"
                         >
                         Contactanos
                         </button>
+                      </a>  
                     </div>
                 </div>    
                 
@@ -89,12 +93,14 @@
                     </p>
                     </div>
                     <div>
+                      <a href="#ContacSection">  
                         <button
                         class="!bg-[#C24704] hover:!bg-[#A63D03] text-white font-semibold
                         py-2 px-4 rounded transition-colors"
                         >
                         Contactanos
                         </button>
+                      </a>
                     </div>
                 </div>    
             </div>        

@@ -1,5 +1,5 @@
 <template>
-<div id="ContacSection"></div>
+<section id="ContacSection"></section>
 <div
     class="font-extrabold
            bg-gradient-to-r

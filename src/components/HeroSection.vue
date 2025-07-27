@@ -21,7 +21,7 @@
          <a href="#ContacSection" class="block mt-4 mb-8 text-white py-1 px-2 rounded transform scale-100 animate-bounce duration-180000">
           <button class="!bg-[#C24704] text-white cursor-pointer rounded-lg px-4 py-2 inline-block">
             <p class="italic text-amber-50 font-bold">¡Nosotros</p>
-            <p class="italic text-amber-50 font-bold">podemos hacerlo Realidad por ti!</p>
+            <p class="italic text-amber-50 font-bold">podemos hacerlo realidad por tí!</p>
           </button>
          </a>
         </div>
